@@ -1,14 +1,14 @@
 var authConfig = {
-  "siteName": "GoIndex - Drive", // Site Name
-  "version" : "2.4", // version
-  "basic_auth": false, // change to Basic authentication
+  "siteName": "GoIndex - Drive", // Your Site Name
+  "version" : "2.4", // Version of GoIndex-Drive
+  "basic_auth": false, // Basic authentication
   "user": "",
   "pass": "",
-  "theme" : "material", // material  classic
+  "theme" : "material", // Material theme classic
   "main_color": "light-green",
   "accent_color": "green",
   "dark_theme": false, //make sure you set main color
-  "search": true, // dont use, not wokrk :(
+  "search": true, // default false, because it only works in root dir! FIXME:
   "client_id": "202264815644.apps.googleusercontent.com",
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
   "refresh_token": "", // Authorization token
