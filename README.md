@@ -25,13 +25,18 @@ Based on the [original project](https://github.com/donwa/goindex) (_down_) & [ku
 
 
 ### How to use
-1. Open https://install.kenci.workers.dev/
-2. Click on the "Auth and get the code" button.
-3. Deploy the code via [Cloudflare Workers](https://workers.cloudflare.com)
+1. Open [https://install.kenci.workers.dev/](https://install.kenci.workers.dev/).
+2. Click on the "GET AUTH CODE" button (left corner). It will open the Google Website to select an Google Drive Account, select your account and copy & paste the code into `Paste auth code in here`.
+3. Fill in other (_optional_) parameters provided by `install.kenci.workers.dev`.
+4. Deploy the code via [Cloudflare Workers](https://workers.cloudflare.com).
 
 
-#### Screenshots
+### Screenshots
 Light Theme
 ![Light Theme](https://raw.githubusercontent.com/kulokenci/goindex-drive/master/screenshot/material-light.png)
 
 Dark Theme![Dark Theme](https://raw.githubusercontent.com/kulokenci/goindex-drive/master/screenshot/material-dark.png)
+
+
+### License
+The project is forked from [kulokenci/goindex-drive](https://github.com/kulokenci/goindex-drive) and re-licensed under the MIT license.
