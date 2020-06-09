@@ -11,7 +11,7 @@
 
 
 ### To-do
-* H.264/AV1 playable files
+* H.265/AV1 playable files
 * Fetch subtitles
 * Sort function
 * URL encode the download link
