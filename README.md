@@ -21,7 +21,7 @@
 
 
 ### Source
-Original project](https://github.com/donwa/goindex
+Based on the [original project](https://github.com/donwa/goindex) (_down_) & [kulokenci / goindex-drive](https://github.com/kulokenci/goindex-drive)
 
 
 ### How to use
