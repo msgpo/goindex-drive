@@ -8,7 +8,7 @@ var authConfig = {
   "main_color": "light-green",
   "accent_color": "green",
   "dark_theme": false, //make sure you set main color
-  "search": false, // dont use, not wokrk :(
+  "search": true, // dont use, not wokrk :(
   "client_id": "202264815644.apps.googleusercontent.com",
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
   "refresh_token": "", // Authorization token
@@ -100,7 +100,7 @@ async function apiRequest(request) {
   let path = url.pathname;
   console.log(path);
   let option = {status:200,headers:{'Access-Control-Allow-Origin':'*'}}
-  
+
   if(path.substr(-1) == '/'){
     let list = await gd.list(path);
     return new Response(JSON.stringify(list),option);
@@ -266,7 +266,7 @@ class googleDrive {
 
   async _findDirId(parent, name){
     name = decodeURIComponent(name).replace(/\'/g, "\\'");
-    
+
     console.log("_findDirId",parent,name);
 
     if(parent==undefined){
