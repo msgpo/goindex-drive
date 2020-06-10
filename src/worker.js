@@ -5,10 +5,10 @@ var authConfig = {
   "user": "",
   "pass": "",
   "theme" : "material",               // Material theme classic
-  "main_color": "light-green",
-  "accent_color": "green",
-  "dark_theme": false,                //make sure you set main color
-  "search": true,                     // default false, because bugs...
+  "main_color": "grey",
+  "accent_color": "blue",
+  "dark_theme": true,                 // Enforce Dark Theme by default
+  "search": true,                     // Default false, because bugs...
   "client_id": "202264815644.apps.googleusercontent.com",
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
   "refresh_token": "",                // Authorization token
