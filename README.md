@@ -1,6 +1,6 @@
 This project aims to provide a better UI for Google's Drive function and allows to quickly index all your files.
 
-![GoIndex Drive](https://github.com/CHEF-KOCH/goindex-drive/blob/master/Logo/go-drive-logo.png?raw=true)
+![GoIndex Drive](https://github.com/CHEF-KOCH/goindex-drive/blob/master/Logo/go-drive-logo.gif?raw=true)
 
 
 ### Main Features
@@ -34,7 +34,7 @@ Based on the [original project](https://github.com/donwa/goindex) (_offline_) & 
 
 
 ### How to use Share Drive (previously known as TeamDrive) instead of your normal Drive?
-* Copy your shared drive ID `DriveURL/drive/u/0/folders/` **StringsOfHere** and set it as root dir.
+* Copy your shared drive ID `DriveURL/drive/u/0/folders/<unique-ID>` (example: `https://drive.google.com/drive/u/0/folders/1ffgFstW0fotDfDNlU9fyNiEstrWy3b6s` the [random folder ID](https://pirate.london/g-suite-team-drive-sharing-yes-you-can-not-you-cant-yes-you-can-db0a4e3e6220) is your folder) and set it as your root dir.
 
 
 ### Screenshots
