@@ -1,8 +1,9 @@
+This project aims to provide a better UI for Google's Drive function and allows to quickly index all your files.
 
-![GoIndex Drive](https://raw.githubusercontent.com/kulokenci/goindex-drive/master/go-drive-logo.png)
+![GoIndex Drive](https://github.com/CHEF-KOCH/goindex-drive/blob/master/Logo/go-drive-logo.png?raw=true)
 
 
-### Features
+### Main Features
 * Choose a Light or Dark Themes
 * Select multiple colours you can pick from
 * Search Function (currently only works in the root `/` dir)
@@ -12,15 +13,15 @@
 
 ### To-do
 * H.265/AV1 playable files
-* Fetch subtitles
-* Sort function
+* Automatically fetch subtitles
+* Sort function via three-dot (hamburger) menu.
 * URL encode the download link
 * [Fix Apostrophe (') in file names (throws an error)](https://github.com/kulokenci/goindex-drive/issues/17)
 * Correct "How to use instructions"
 * Get all download links in a directory
 
 
-### Source
+### Original Source
 Based on the [original project](https://github.com/donwa/goindex) (_down_) & [kulokenci/goindex-drive](https://github.com/kulokenci/goindex-drive).
 
 
@@ -36,10 +37,11 @@ Based on the [original project](https://github.com/donwa/goindex) (_down_) & [ku
 
 
 ### Screenshots
-Light Theme
+**Light Theme**
 ![Light Theme](https://raw.githubusercontent.com/kulokenci/goindex-drive/master/screenshot/material-light.png)
 
-Dark Theme![Dark Theme](https://raw.githubusercontent.com/kulokenci/goindex-drive/master/screenshot/material-dark.png)
+**Dark Theme**
+![Dark Theme](https://raw.githubusercontent.com/kulokenci/goindex-drive/master/screenshot/material-dark.png)
 
 
 ### License
