@@ -1,18 +1,18 @@
 var authConfig = {
-  "siteName": "GoIndex - Drive", // Your Site Name
-  "version" : "2.4", // Version of GoIndex-Drive
-  "basic_auth": false, // Basic authentication
+  "siteName": "GoIndex - Drive",      // Your Site Name
+  "version" : "2.4",                  // Version of GoIndex-Drive
+  "basic_auth": false,                // Basic authentication
   "user": "",
   "pass": "",
-  "theme" : "material", // Material theme classic
+  "theme" : "material",               // Material theme classic
   "main_color": "light-green",
   "accent_color": "green",
-  "dark_theme": false, //make sure you set main color
-  "search": true, // default false, because it only works in root dir! FIXME:
+  "dark_theme": false,                //make sure you set main color
+  "search": true,                     // default false, because bugs...
   "client_id": "202264815644.apps.googleusercontent.com",
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  "refresh_token": "", // Authorization token
-  "root": "" // Root directory ID
+  "refresh_token": "",                // Authorization token
+  "root": ""                          // Root directory ID
 };
 var gd;
 var html = `
@@ -165,7 +165,8 @@ class googleDrive {
     return obj.files[0];
   }
 
-  // cari langsung ke gd berdasarkan root id sekarang
+  // Search directly to Google Drive based on the root id
+  // FIXME:
   async search(query){
     let url = 'https://www.googleapis.com/drive/v3/files';
     this.files = [];

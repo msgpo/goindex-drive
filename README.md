@@ -4,25 +4,25 @@ This project aims to provide a better UI for Google's Drive function and allows 
 
 
 ### Main Features
-* Choose a Light or Dark Themes
-* Select multiple colours you can pick from
-* Search Function (currently only works in the root `/` dir)
-* Media Playback
+* Choose from a Light or Dark Themes main theme
+* Choose from multiple colours for your borders
+* Search function (currently only works if you set root `/` dir)
+* Media Playback for e.g. mp4 files without downloading them first.
 * Works with GDrive/[ShareDrive (TeamDrive)](https://github.com/kulokenci/goindex-drive/issues/19)
 
 
 ### To-do
-* H.265/AV1 playable files
-* Automatically fetch subtitles
-* Sort function via three-dot (hamburger) menu.
-* URL encode the download link
-* [Fix Apostrophe (') in file names (throws an error)](https://github.com/kulokenci/goindex-drive/issues/17)
-* Correct "How to use instructions"
-* Get all download links in a directory
+- [ ] H.265/AV1 playable files
+- [ ] Automatically fetch subtitles
+- [ ] Sort function via three-dot (or hamburger) menu.
+- [ ] URL encode the download link
+- [ ] [Fix Apostrophe (') in file names (throws an error)](https://github.com/kulokenci/goindex-drive/issues/17)
+- [x] Correct "How to use instructions"
+- [ ] Grab all download links in a directory
 
 
 ### Original Source
-Based on the [original project](https://github.com/donwa/goindex) (_down_) & [kulokenci/goindex-drive](https://github.com/kulokenci/goindex-drive).
+Based on the [original project](https://github.com/donwa/goindex) (_offline_) & [kulokenci/goindex-drive](https://github.com/kulokenci/goindex-drive).
 
 
 ### How to use
