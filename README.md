@@ -22,12 +22,12 @@ This project aims to provide a better UI for Google's Drive function and allows 
 
 
 ### Original Source
-Based on the [original project](https://github.com/donwa/goindex) (_offline_) & [kulokenci/goindex-drive](https://github.com/kulokenci/goindex-drive).
+Based on the [original project](https://github.com/donwa/goindex) (_now offline_) & forked from [kulokenci/goindex-drive](https://github.com/kulokenci/goindex-drive).
 
 
 ### How to use
 1. Open [https://install.kenci.workers.dev/](https://install.kenci.workers.dev/).
-2. Click on the "GET AUTH CODE" button (_ big fat blue button in the left corner_). It will open the Google Website where you select your Google Drive Account. Once you're done copy & paste the code you got back into `Paste auth code in here` (it's the first empty line on the install.kenci.workers.dev website).
+2. Click on the "GET AUTH CODE" button (_big fat blue button in the left corner_). It will open the Google Website where you select your Google Drive Account. Once you're done copy & paste the code you got back into `Paste auth code in here` (it's the first empty line on the install.kenci.workers.dev website).
 3. Fill in other all (_optional_) parameters on the `install.kenci.workers.dev`. Once you pressed `BUILD NOW!` it will generate your configure file for Cloudflare Workers.
 4. Copy the given code via `COPY ALL` button and build your [Cloudflare Workers](https://workers.cloudflare.com) serverless application.
 5. (_optional_) You can change the configuration at any time under you Cloudlare workers application, make sure once you changed something to press `Save and Deploy`.
