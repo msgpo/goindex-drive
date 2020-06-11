@@ -6,9 +6,9 @@ This project aims to provide a better UI for Google's Drive function and allows 
 ### Main Features
 * Choose from a Light or Dark Themes main theme
 * Choose from multiple colours for your borders
-* Search function (currently only works if you set root `/` dir)
+* Search function
 * Media Playback for e.g. mp4 files without downloading them first.
-* Works with GDrive/[ShareDrive (TeamDrive)](https://github.com/kulokenci/goindex-drive/issues/19)
+* Works with GDrive/ShareDrive (prev. known as TeamDrive)
 
 
 ### To-do
@@ -38,7 +38,7 @@ This project aims to provide a better UI for Google's Drive function and allows 
   1. Open [https://gencode.ve.workers.dev/](https://gencode.ve.workers.dev/).
   2. If you want to deploy main drive leave the option ROOT as it is. But if you want to deploy your Team Drive/Shared Drive/Folder then copy the ID and replace it with ROOT.
   3. Click on the "GET AUTH CODE" button (_big fat blue button in the left corner_). It will open the Google Website where you select your Google Drive Account. Once you're done copy & paste the code you got back into `Paste auth code in here` (it's the first empty line on the install.kenci.workers.dev website).
-  4. Fill in other all (_optional_) parameters on the `[install.kenci.workers.dev`. Once you pressed `BUILD NOW!` it will generate your configure file for Cloudflare Workers.
+  4. Fill in other all (_optional_) parameters on the `install.kenci.workers.dev`. Once you pressed `BUILD NOW!` it will generate your configure file for Cloudflare Workers.
   5. Copy the given code via `COPY ALL` button and build your [Cloudflare Workers](https://workers.cloudflare.com) serverless application.
   6. Find Workers and Open it, then create your sub-domain or continue if already done. Select the `Free Plan`, then click on `Create a Worker`. (_Optional_) You can rename the workers at top of the page. Now paste the code you copied earlier. Click on `Save and Deploy`.
   7. (_optional_) You can change the configuration at any time under you Cloudlare workers application, make sure once you changed something to press `Save and Deploy`.
@@ -50,7 +50,7 @@ This project aims to provide a better UI for Google's Drive function and allows 
 2. Follow [https://rclone.org/drive/](https://rclone.org/drive/) and bind it to your drive.
 3. Execute the `commandrclone config file` to find the file `rclone.conf path`.
 4. Open `rclone.conf`,find the configuration `root_folder_id` and `refresh_token`.
-5. Download `index.js` in [https://github.com/CHEF-KOCH/goindex-drive/src/index.js](https://github.com/CHEF-KOCH/goindex-drive/src/index.js]) and fill in root and refresh_token.
+5. Download `index.js` in [https://github.com/CHEF-KOCH/goindex-drive/src/worker/index.js](https://github.com/CHEF-KOCH/goindex-drive/src/worker/index.js) and fill in root and refresh_token.
 6. Deploy the code to [Cloudflare Workers](https://workers.cloudflare.com).
 7. (_optional_) Check the [video demo](https://www.youtube.com/watch?v=8WMddzVX1Dw).
 
@@ -61,8 +61,6 @@ This project aims to provide a better UI for Google's Drive function and allows 
 
 
 ### Screenshots
-**Light Theme**
-![Light Theme](https://raw.githubusercontent.com/kulokenci/goindex-drive/master/screenshot/material-light.png)
 
 **Dark Theme**
 ![Dark Theme](https://raw.githubusercontent.com/kulokenci/goindex-drive/master/screenshot/material-dark.png)
