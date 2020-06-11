@@ -45,12 +45,12 @@ This project aims to provide a better UI for Google's Drive function and allows 
 
 </details>
 
-### How to use via rclone
+### How to deploy via rclone
 1. Install [rclone](https://github.com/rclone/rclone) software locally.
 2. Follow [https://rclone.org/drive/](https://rclone.org/drive/) and bind it to your drive.
 3. Execute the `commandrclone config file` to find the file `rclone.conf path`.
 4. Open `rclone.conf`,find the configuration `root_folder_id` and `refresh_token`.
-5. Download `index.js` in [https://github.com/CHEF-KOCH/goindex-drive/src/worker/index.js](https://github.com/CHEF-KOCH/goindex-drive/src/worker/index.js) and fill in root and refresh_token.
+5. Download `index.js` in [https://github.com/CHEF-KOCH/goindex-drive/blob/master/src/worker/index.js](https://github.com/CHEF-KOCH/goindex-drive/blob/master/src/worker/index.js) and fill in root and refresh_token.
 6. Deploy the code to [Cloudflare Workers](https://workers.cloudflare.com).
 7. (_optional_) Check the [video demo](https://www.youtube.com/watch?v=8WMddzVX1Dw).
 
