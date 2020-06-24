@@ -38,7 +38,7 @@ This project aims to provide a better UI for Google's Drive function and allows 
 ### Supported formats
 
 | Image, Audio, Video or Document   |      Format      |  Supported? |
-|----------|:-------------:|------:|
+|----------|:-------------:|:------:|
 | Video | .asf | ✅ |
 | Video | .avi | ✅ |
 | Video | .flv | ✅ |
