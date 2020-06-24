@@ -12,7 +12,7 @@ This project aims to provide a better UI for Google's Drive function and allows 
   * [Automatic deploy via Website](#automatic-deploy-via-website)
   * [Manually deploy via rclone](#manually-deploy-via-rclone)
   * [How to use Share Drive (previously known as TeamDrive) instead of your normal Drive?](#how-to-use-share-drive-previously-known-as-teamdrive-instead-of-your-normal-drive)
-  * [Screenshots](#screenshots)
+  * [Screenshot](#screenshot)
   * [Tutorial Guides for beginners](#tutorial-guides-for-beginners)
 * [Credits](#credits)
 * [License](#license)
@@ -38,7 +38,7 @@ This project aims to provide a better UI for Google's Drive function and allows 
 ### Supported formats
 
 | Image, Audio, Video or Document   |      Format      |  Supported? |
-|----------|:-------------:|:------:|
+|:----------:|:-------------:|:------:|
 | Video | .asf | ✅ |
 | Video | .avi | ✅ |
 | Video | .flv | ✅ |
@@ -131,7 +131,7 @@ Follow the instructions provided over [here](https://g-index.glitch.me) another 
 * **DO NOT** copy the whole URL `DriveURL/drive/folders/` you only need the specific and unique folder ID!
 
 
-### Screenshots
+### Screenshot
 
 **Dark Theme**
 ![Dark Theme](https://raw.githubusercontent.com/kulokenci/goindex-drive/master/screenshot/material-dark.png)
@@ -139,7 +139,7 @@ Follow the instructions provided over [here](https://g-index.glitch.me) another 
 
 ### Tutorial Guides for beginners
 * Check the [video demo](https://www.youtube.com/watch?v=8WMddzVX1Dw).
-* Check the step-by-step guide over [here](https://telegra.ph/G-Index-DarkMode--MultiAuth--English--TD-Maker--Custom-Domainga-Tutorial-04-29)
+* Check the step-by-step guide over [here](https://telegra.ph/G-Index-DarkMode--MultiAuth--English--TD-Maker--Custom-Domainga-Tutorial-04-29).
 * How do I just download files without previewing them? Simple, just remove `?a=view` or use the download button in the right corner.
 
 
